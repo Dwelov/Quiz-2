@@ -21,12 +21,12 @@ using namespace std;
 	 if(sumOfUnits <= 25){
 	 	finalBill = sumOfUnits * 30;
 	 }else{
-	 	//condition-2: Charge the 45 extra for every extra unit than 25
+	 	//condition-2: Charge the 45 extra for every extra unit over 25
 	 	finalBill = (25 * 30) + ((sumOfUnits-25) * 45);
 	 }
 	  
 	  cout<<endl<<string(40,'-')<<endl;
-	 //Dispalying the result
+	 //Displaying the result
 	 cout<<"Total Units Consumed: "<<sumOfUnits<<endl
 	 <<"Final Bill is : "<< finalBill<<endl;
 	 return 0;
